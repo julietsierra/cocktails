@@ -1,0 +1,6 @@
+<% @cocktails.each do |c| %>
+  <div class="article">
+    <h1 class="cocktail-name"><%= link_to cocktails.name, c %></h1>
+    <p class="cocktail-content"><%= cocktails.description %></p>
+  </div>
+<% end %>

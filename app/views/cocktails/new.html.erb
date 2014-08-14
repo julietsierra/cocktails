@@ -1,0 +1,7 @@
+<%= simple_form_for @cocktail do |f| %>
+  <%= render partial: 'form', locals: {f:f} %>
+  <%= f.submit "Add cocktail" %>
+
+<% end %>
+
+<%= link_to 'back to list', cocktails_path%>
